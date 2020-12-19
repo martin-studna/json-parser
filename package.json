@@ -1,0 +1,10 @@
+{
+  "name": "json-parser",
+  "version": "1.0.0",
+  "description": "Interview assignment to accomango",
+  "main": "index.js",
+  "repository": "https://github.com/martin-studna/json-parser",
+  "author": "Martin Studna",
+  "license": "MIT",
+  "private": false
+}
