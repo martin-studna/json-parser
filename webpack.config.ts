@@ -7,6 +7,7 @@ const config: webpack.Configuration = {
   output: {
     path: path.resolve(__dirname, 'dist'),
     filename: 'index_bundle.js',
+    publicPath: '/',
   },
   performance: {
     hints: false,
@@ -28,6 +29,21 @@ const config: webpack.Configuration = {
         },
       },
       { test: /\.(css|scss)$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
+      {
+        test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+
+          },
+          {
+            loader: 'file-loader',
+            options: {
+              name: 'images/[name].[ext]',
+            },
+          },
+        ],
+      },
     ],
   },
   resolve: {
