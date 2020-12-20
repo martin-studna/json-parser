@@ -1,8 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Form from "./components/Form";
+import Output from "./components/Output";
+import './index.scss'
 
 const App = () => (
-    <h1>My React and TypeScript App!</h1>
+    <div className="app">
+      <h1>JSON Parser</h1>
+      <Form/>
+      <Output/>
+    </div>
 );
 
 ReactDOM.render(
