@@ -27,9 +27,7 @@
   <h3 align="center">JSON Parser</h3>
 
   <p align="center">
-    Pretty printer of JSON
-    <br />
-    <a href="https://github.com/martin-studna/json-parser"><strong>Explore the docs »</strong></a>
+    JSON pretty printer application
     <br />
     <br />
     <a href="https://github.com/martin-studna/json-parser/issues">Report Bug</a>
@@ -37,8 +35,6 @@
     <a href="https://github.com/martin-studna/json-parser/issues">Request Feature</a>
   </p>
 </p>
-
-
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -57,12 +53,8 @@
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgements">Acknowledgements</a></li>
   </ol>
 </details>
 
@@ -71,33 +63,29 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+JSON parser is simple React/Typescript application. It was created as a solution to the assignment given in the interview into Accomango company.
+The application is single page app with one text input, submit button and example button. User inserts its JSON into the text area and after he clicks on the submit button, JSON is going to be rendered below the form in "pretty form".
 
-Here's a blank template to get started:
-**To avoid retyping too much info. Do a search and replace with your text editor for the following:**
-`github_username`, `repo_name`, `twitter_handle`, `email`, `project_title`, `project_description`
+There is also an option to click on the "Try Example!" button, which will inserts example json into the text area.
 
+The application also validates, whether is the input in correct json format or not.
 
 ### Built With
 
-* []()
-* []()
-* []()
+In order to understand the inner-workings of this application and modify any code/configurations, it is recommended that a developer have a basic understanding of the following languages/technologies/frameworks:
 
-
+* Webpack
+* Typescript
+* React
 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-To get a local copy up and running follow these simple steps.
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+To get the project running, you have to first install on your machine `node` and `npm`
 
 ### Installation
 
@@ -110,37 +98,6 @@ This is an example of how to list things you need to use the software and how to
    npm install
    ```
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-See the [open issues](https://github.com/martin-studna/json-parser/issues) for a list of proposed features (and known issues).
-
-
-
-<!-- CONTRIBUTING -->
-## Contributing
-
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-
-
 <!-- LICENSE -->
 ## License
 
@@ -151,21 +108,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
-
-Project Link: [https://github.com/martin-studna/json-parser](https://github.com/martin-studna/json-parser)
-
-
-
-<!-- ACKNOWLEDGEMENTS -->
-## Acknowledgements
-
-* []()
-* []()
-* []()
-
-
-
+* Martin Studna - martin.studna2@gmail.com
 
 
 <!-- MARKDOWN LINKS & IMAGES -->
