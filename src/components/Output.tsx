@@ -1,10 +1,8 @@
 import React from 'react';
-import '../css/output.scss'
+import '../css/output.scss';
 
-const Output = () => {
-  return (<div>
-    
-  </div>)
-}
+const Output = () => (
+  <div />
+);
 
 export default Output;

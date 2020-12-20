@@ -1,15 +1,15 @@
-import path from "path";
-import webpack from "webpack";
-import HtmlWebpackPlugin  from 'html-webpack-plugin'
+import path from 'path';
+import webpack from 'webpack';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
 
 const config: webpack.Configuration = {
-  entry: "./src/index.tsx",
+  entry: './src/index.tsx',
   output: {
-    path: path.resolve(__dirname, "dist"),
-    filename: "index_bundle.js",
+    path: path.resolve(__dirname, 'dist'),
+    filename: 'index_bundle.js',
   },
   performance: {
-    hints: false
+    hints: false,
   },
   module: {
     rules: [
@@ -17,19 +17,21 @@ const config: webpack.Configuration = {
         test: /\.(ts|js)x?$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader",
-          options: { presets: [
-            "@babel/preset-env",
-            "@babel/preset-react",
-            "@babel/preset-typescript",
-          ] },
+          loader: 'babel-loader',
+          options: {
+            presets: [
+              '@babel/preset-env',
+              '@babel/preset-react',
+              '@babel/preset-typescript',
+            ],
+          },
         },
       },
-      { test: /\.(css|scss)$/, use: ["style-loader", "css-loader", "sass-loader"] },
+      { test: /\.(css|scss)$/, use: ['style-loader', 'css-loader', 'sass-loader'] },
     ],
   },
   resolve: {
-    extensions: [".tsx", ".ts", ".js"],
+    extensions: ['.tsx', '.ts', '.js'],
   },
   plugins: [
     new HtmlWebpackPlugin({
@@ -37,6 +39,5 @@ const config: webpack.Configuration = {
     }),
   ],
 };
-
 
 export default config;
