@@ -21,19 +21,17 @@
 <br />
 <p align="center">
   <a href="https://github.com/martin-studna/json-parser">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+    <img src="https://jsonformatter.org/img/json-pretty-print.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">project_title</h3>
+  <h3 align="center">JSON Parser</h3>
 
   <p align="center">
-    project_description
+    Pretty printer of JSON
     <br />
     <a href="https://github.com/martin-studna/json-parser"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/martin-studna/json-parser">View Demo</a>
-    ·
     <a href="https://github.com/martin-studna/json-parser/issues">Report Bug</a>
     ·
     <a href="https://github.com/martin-studna/json-parser/issues">Request Feature</a>
