@@ -105,7 +105,7 @@ This is an example of how to list things you need to use the software and how to
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/github_username/repo_name.git
+   git clone https://github.com/martin-studna/json-parser_name.git
    ```
 2. Install NPM packages
    ```sh
@@ -172,15 +172,15 @@ Project Link: [https://github.com/martin-studna/json-parser](https://github.com/
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/github_username/repo.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/martin-studna/json-parser.svg?style=for-the-badge
 [contributors-url]: https://github.com/martin-studna/json-parser/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/github_username/repo.svg?style=for-the-badge
+[forks-shield]: https://img.shields.io/github/forks/martin-studna/json-parser.svg?style=for-the-badge
 [forks-url]: https://github.com/martin-studna/json-parser/network/members
-[stars-shield]: https://img.shields.io/github/stars/github_username/repo.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/martin-studna/json-parser.svg?style=for-the-badge
 [stars-url]: https://github.com/martin-studna/json-parser/stargazers
-[issues-shield]: https://img.shields.io/github/issues/github_username/repo.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/martin-studna/json-parser.svg?style=for-the-badge
 [issues-url]: https://github.com/martin-studna/json-parser/issues
-[license-shield]: https://img.shields.io/github/license/github_username/repo.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/martin-studna/json-parser.svg?style=for-the-badge
 [license-url]: https://github.com/martin-studna/json-parser/blob/master/LICENSE
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/martin-studna
