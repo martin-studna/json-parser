@@ -21,7 +21,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/martin-studna/json-parser">
-    <img src="https://jsonformatter.org/img/json-pretty-print.png" alt="Logo" width="80" height="80">
+    <img src="https://jsonformatter.org/img/json-pretty-print.png" alt="Logo" width="200" height="200">
   </a>
 
   <h3 align="center">JSON Parser</h3>
